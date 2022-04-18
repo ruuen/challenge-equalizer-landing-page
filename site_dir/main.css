@@ -64,6 +64,10 @@ body {
   padding: 2em 1.5em;
 }
 
+.header__illustration {
+  display: none;
+}
+
 .hero {
   padding: 1em 1.5em 11.5em 1.5em;
 }
@@ -198,14 +202,29 @@ body {
   margin-left: 1em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
+  body {
+    background: no-repeat top -30% right 20%/150% url(./images/bg-main-tablet.png), #fcfaf9;
+  }
+
   .header {
     padding: 4em 2.5em 5em 2.5em;
+    position: relative;
+  }
+
+  .header__illustration {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32.5%;
+    margin-right: -1.75em;
+    margin-top: -1em;
   }
 
   .hero {
     padding: 1em 2.5em 10.5em 2.5em;
-    max-width: 77.5%;
+    max-width: 72.5vw;
   }
 
   .hero__heading {
@@ -256,5 +275,91 @@ body {
 
   .footer__content {
     max-width: 55%;
+  }
+}
+@media (min-width: 1100px) {
+  body {
+    background: no-repeat top 65% right 30%/150% url(./images/bg-main-desktop.png), #fcfaf9;
+    padding: 0 7.5em;
+  }
+
+  .header__illustration {
+    width: 25%;
+    margin-right: -7.75em;
+    margin-top: -3em;
+  }
+
+  .hero {
+    max-width: 62.5vw;
+    padding: 1em 1.5em 23.5em 1.5em;
+  }
+
+  .hero__heading {
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+  }
+
+  .hero__copy {
+    font-size: 1.25rem;
+    line-height: 2.125rem;
+  }
+
+  .card__bg-phone {
+    max-width: 23vw;
+    margin-left: -11em;
+    margin-top: -14.5em;
+  }
+
+  .card__bg-pattern {
+    margin-top: -4em;
+    margin-left: -5em;
+    width: 30%;
+    padding: 0 0 38em 0;
+  }
+
+  .card__item {
+    margin-left: auto;
+    margin-right: 6em;
+    max-width: 35%;
+    margin-top: -62em;
+    padding: 3em;
+  }
+
+  .footer {
+    position: relative;
+    z-index: 2;
+    padding: 6em 2.5em 0em 2.5em;
+  }
+
+  .footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__content-container {
+    padding: 0 0 0 8em;
+  }
+  .footer__content-container .footer__content-copy:last-child {
+    padding: 0;
+  }
+
+  .equalizer__logo {
+    align-self: baseline;
+  }
+
+  .footer__socials {
+    padding: 0;
+  }
+
+  .footer__social-icon:hover {
+    filter: invert(72%) sepia(94%) saturate(3693%) hue-rotate(327deg) brightness(101%) contrast(96%);
+  }
+
+  .card__btn-ios:hover {
+    background: #66e2dc;
+  }
+  .card__btn-android:hover {
+    background: #ffb964;
   }
 }
