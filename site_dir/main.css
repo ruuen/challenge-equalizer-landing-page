@@ -363,3 +363,27 @@ body {
     background: #ffb964;
   }
 }
+@media (min-width: 2100px) {
+  body {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .hero {
+    max-width: 40vw;
+  }
+
+  .card__bg-phone {
+    max-width: 17vw;
+    margin-left: -9em;
+  }
+
+  .card__item {
+    max-width: 27.5%;
+    margin-right: 15em;
+  }
+
+  .footer {
+    padding: 8em 2.5em 0em 2.5em;
+  }
+}
