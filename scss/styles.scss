@@ -1,0 +1,144 @@
+@use "variables" as var;
+
+body {
+  background: no-repeat top -650px left 20% / cover url(./images/bg-main-mobile.png), var.$clr-white;
+}
+
+.header {
+  padding: 2em 1.5em;
+}
+
+.hero {
+  padding: 1em 1.5em 10.5em 1.5em;
+}
+
+.hero__heading {
+  font-size: 2.5rem;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.hero__copy {
+  padding: 1.5em 0 0 0;
+  font-size: 1rem;
+  line-height: 26px;
+}
+
+.card {
+  background: var.$clr-black;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__bg-pattern {
+  position: relative;
+  z-index: 1;
+  width: 77.5%;
+}
+
+.card__bg-phone {
+  position: absolute;
+  max-width: 58%;
+  z-index: 2;
+  margin-top: -6.5em;
+}
+
+.card__item {
+  position: relative;
+  z-index: 3;
+  background: var.$clr-orange;
+  border-radius: 12px;
+  margin-top: -3em;
+  padding: 3em 2em;
+  color: var.$clr-white;
+}
+
+.card__heading {
+  font-size: 2rem;
+}
+
+.card__body {
+  font-size: 1.125rem;
+  line-height: 28px;
+  padding: 1em 0;
+}
+
+.card__pricing {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0 1em 0;
+
+  &--large {
+    font-size: 4rem;
+    font-weight: var.$font-weight-bold;
+    padding-right: 1rem;
+  }
+}
+
+.card__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__btn {
+  background: var.$clr-black;
+  color: var.$clr-white;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 12px;
+  font-weight: var.$font-weight-bold;
+  font-size: 1.125rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-logo {
+    padding: 0 0.5em 0 0;
+  }
+
+  &-android {
+    background: var.$clr-white;
+    color: var.$clr-black;
+    margin: 1em 0 0 0;
+  }
+}
+
+.footer {
+  padding: 4em 1.5em;
+}
+
+.footer__content-container {
+  padding: 1.5em 0 0 0;
+
+  .footer__content-copy:last-child {
+    padding: 0.25em 0 0 0;
+  }
+}
+
+.footer__content-copy {
+  line-height: 26px;
+}
+
+.footer__email {
+  font-weight: var.$font-weight-bold;
+  text-decoration: none;
+  color: var.$clr-black;
+}
+
+.footer__socials {
+  padding: 3.5em 0 1em 0;
+
+  .footer__social-icon:first-child {
+    margin-left: 0;
+  }
+}
+
+.footer__social-icon {
+  margin-left: 1em;
+}

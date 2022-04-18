@@ -1,0 +1,195 @@
+/* ibm-plex-sans-regular - latin */
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("./fonts/ibm-plex-sans-v13-latin-regular.woff2") format("woff2"), url("./fonts/ibm-plex-sans-v13-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* ibm-plex-sans-700 - latin */
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("./fonts/ibm-plex-sans-v13-latin-700.woff2") format("woff2"), url("./fonts/ibm-plex-sans-v13-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  overflow-wrap: break-word;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+body {
+  background: no-repeat top -650px left 20%/cover url(./images/bg-main-mobile.png), #fcfaf9;
+}
+
+.header {
+  padding: 2em 1.5em;
+}
+
+.hero {
+  padding: 1em 1.5em 10.5em 1.5em;
+}
+
+.hero__heading {
+  font-size: 2.5rem;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.hero__copy {
+  padding: 1.5em 0 0 0;
+  font-size: 1rem;
+  line-height: 26px;
+}
+
+.card {
+  background: #191826;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__bg-pattern {
+  position: relative;
+  z-index: 1;
+  width: 77.5%;
+}
+
+.card__bg-phone {
+  position: absolute;
+  max-width: 58%;
+  z-index: 2;
+  margin-top: -6.5em;
+}
+
+.card__item {
+  position: relative;
+  z-index: 3;
+  background: #fa7453;
+  border-radius: 12px;
+  margin-top: -3em;
+  padding: 3em 2em;
+  color: #fcfaf9;
+}
+
+.card__heading {
+  font-size: 2rem;
+}
+
+.card__body {
+  font-size: 1.125rem;
+  line-height: 28px;
+  padding: 1em 0;
+}
+
+.card__pricing {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0 1em 0;
+}
+.card__pricing--large {
+  font-size: 4rem;
+  font-weight: 700;
+  padding-right: 1rem;
+}
+
+.card__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__btn {
+  background: #191826;
+  color: #fcfaf9;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__btn-logo {
+  padding: 0 0.5em 0 0;
+}
+.card__btn-android {
+  background: #fcfaf9;
+  color: #191826;
+  margin: 1em 0 0 0;
+}
+
+.footer {
+  padding: 4em 1.5em;
+}
+
+.footer__content-container {
+  padding: 1.5em 0 0 0;
+}
+.footer__content-container .footer__content-copy:last-child {
+  padding: 0.25em 0 0 0;
+}
+
+.footer__content-copy {
+  line-height: 26px;
+}
+
+.footer__email {
+  font-weight: 700;
+  text-decoration: none;
+  color: #191826;
+}
+
+.footer__socials {
+  padding: 3.5em 0 1em 0;
+}
+.footer__socials .footer__social-icon:first-child {
+  margin-left: 0;
+}
+
+.footer__social-icon {
+  margin-left: 1em;
+}
