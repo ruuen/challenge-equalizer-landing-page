@@ -9,7 +9,7 @@ body {
 }
 
 .hero {
-  padding: 1em 1.5em 10.5em 1.5em;
+  padding: 1em 1.5em 11.5em 1.5em;
 }
 
 .hero__heading {
@@ -27,6 +27,10 @@ body {
 .card {
   background: var.$clr-black;
   border-radius: 12px;
+}
+
+.card__bg {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
