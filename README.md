@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/equalizer-landing-page-using-scss-and-bem-SJI75p5Vc)
-- Live Site URL: [Netlify](https://rd-challenge-equalizer.netlify.app/)
+- Live Site URL: [Cloudflare Pages](https://mbr-challenge-equalizer-landing-page.pages.dev/)
 
 ## My process
 
@@ -64,5 +64,5 @@ I feel this was one of my more responsive designs so far.
 
 ## Author
 
-- Frontend Mentor - [@ruuendigital](https://www.frontendmentor.io/profile/ruuendigital)
+- Frontend Mentor - [@ruuen](https://www.frontendmentor.io/profile/ruuen)
 - Twitter - [@maxruuen](https://www.twitter.com/maxruuen)
